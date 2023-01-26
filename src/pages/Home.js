@@ -9,9 +9,6 @@ export default function Home() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
             Welcome to the Studio!
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">
-            The official site of Hannah Rachel Geisman.
-          </p>
           <div className="flex mt-6 justify-center">
             <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex" />
           </div>
