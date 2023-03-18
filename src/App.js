@@ -25,7 +25,8 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <CartProvider
-        mode="checkout-session"
+        mode="payment"
+        cartMode="checkout-session"
         stripe={stripePromise}
         currency="USD"
       >
